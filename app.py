@@ -2,7 +2,7 @@ import streamlit as st
 st.title('AT Traveller App')
 destination=st.text_input("Enter destination: ")
 travel_date=st.date_input("Enter the travel Date:")
-budget=st.number_input(input("Enter budget:"))
+budget=st.number_input("Enter budget:")
 hotel_required=st.selectbox("Do you need hotel stay",("Yes","No"))
 
 if st.button("submit"):
