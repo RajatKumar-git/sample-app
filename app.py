@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 st.title('AT Traveller App')
 destination=st.text_input("Enter destination: ")
