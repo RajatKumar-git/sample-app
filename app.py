@@ -7,10 +7,10 @@ hotel_required=st.selectbox(input("Do you need hotel stay(Yes for 1/No for 0): "
 
 if(st.button("submit")):
     st.write(print(f"""
-AI Travel Agent Summary
------------------------
-Destination \t: {destination}
-Travel Date \t: {travel_date}
-Budget  \t: {budget}
-Hotel_Required \t: {hotel_required}"""))
+    AI Travel Agent Summary
+    -----------------------
+    Destination \t: {destination}
+    Travel Date \t: {travel_date}
+    Budget  \t: {budget}
+    Hotel_Required \t: {hotel_required}"""))
 st.balloons()
